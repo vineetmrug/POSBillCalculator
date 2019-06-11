@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		0B7F21F29A37761417EDE79E /* Pods-POSBillCalculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSBillCalculator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-POSBillCalculator_Tests/Pods-POSBillCalculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1363C3C30C9C679D8CEAC6A9 /* POSBillCalculator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = POSBillCalculator.podspec; path = ../POSBillCalculator.podspec; sourceTree = "<group>"; };
+		1363C3C30C9C679D8CEAC6A9 /* POSBillCalculator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = POSBillCalculator.podspec; path = ../POSBillCalculator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		222156DA4683074459355B9A /* Pods-POSBillCalculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSBillCalculator_Example.release.xcconfig"; path = "Target Support Files/Pods-POSBillCalculator_Example/Pods-POSBillCalculator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		423CB1B9C45069B4A5E79145 /* Pods_POSBillCalculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSBillCalculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45BBE69F9554DCDB90DD941E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		45BBE69F9554DCDB90DD941E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* POSBillCalculator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POSBillCalculator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		72194F9038E6A9C84CD177B3 /* Pods-POSBillCalculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSBillCalculator_Example.debug.xcconfig"; path = "Target Support Files/Pods-POSBillCalculator_Example/Pods-POSBillCalculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9CA7D45A01D3C7D6FE17149A /* Pods-POSBillCalculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSBillCalculator_Tests.release.xcconfig"; path = "Target Support Files/Pods-POSBillCalculator_Tests/Pods-POSBillCalculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC46FF9D06F6221A43799718 /* Pods_POSBillCalculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSBillCalculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC4CD3A8B1BB954425161C40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC4CD3A8B1BB954425161C40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				0B7F21F29A37761417EDE79E /* Pods-POSBillCalculator_Tests.debug.xcconfig */,
 				9CA7D45A01D3C7D6FE17149A /* Pods-POSBillCalculator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
