@@ -1,0 +1,16 @@
+PODS:
+  - POSBillCalculator (0.1.0)
+
+DEPENDENCIES:
+  - POSBillCalculator (from `../`)
+
+EXTERNAL SOURCES:
+  POSBillCalculator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  POSBillCalculator: b1d8f496fd95ce99038cba81f03ffbc998dcd530
+
+PODFILE CHECKSUM: 2e661273f80745f993e9e2047c8139fc192bb1ec
+
+COCOAPODS: 1.7.1

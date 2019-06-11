@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'POSBillCalculator_Example' do
+  pod 'POSBillCalculator', :path => '../'
+
+  target 'POSBillCalculator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,22 @@
+{
+  "name": "POSBillCalculator",
+  "version": "0.1.0",
+  "summary": "A short description of POSBillCalculator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vineet Mrug/POSBillCalculator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vineet Mrug": "m.vineet26@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Vineet Mrug/POSBillCalculator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "POSBillCalculator/Classes/**/*"
+}

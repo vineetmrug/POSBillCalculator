@@ -1,0 +1,6 @@
+framework module Pods_POSBillCalculator_Example {
+  umbrella header "Pods-POSBillCalculator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
