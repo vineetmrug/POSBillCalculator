@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  POSBillCalculator: b1d8f496fd95ce99038cba81f03ffbc998dcd530
+  POSBillCalculator: a0d3edea16e44c15e97cffb0fec6ca6fb4d66644
 
 PODFILE CHECKSUM: 2e661273f80745f993e9e2047c8139fc192bb1ec
 

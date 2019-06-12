@@ -9,20 +9,21 @@
 /* Begin PBXBuildFile section */
 		05B8E2F2C638C5B731551415159DB9DE /* Pods-POSBillCalculator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AFD9AF0999015B5336A0B7570CD5C03 /* Pods-POSBillCalculator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08D8D9AD28BAFB94499C9602537D5A00 /* Pods-POSBillCalculator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A065A73CD14A2C739AD7D575ABF8C979 /* Pods-POSBillCalculator_Tests-dummy.m */; };
-		1B3B3A3622B01E3D00E8BD56 /* POSBillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B3A3522B01E3D00E8BD56 /* POSBillItem.swift */; };
-		1B3B3A3822B01EA100E8BD56 /* POSTax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B3A3722B01EA100E8BD56 /* POSTax.swift */; };
-		1B3B3A3A22B01EB500E8BD56 /* POSDiscount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B3A3922B01EB500E8BD56 /* POSDiscount.swift */; };
-		1B3B3A4022B01F3C00E8BD56 /* POSBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B3A3F22B01F3C00E8BD56 /* POSBill.swift */; };
-		1B3B3A4222B01F5600E8BD56 /* POSBillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B3A4122B01F5600E8BD56 /* POSBillCalculator.swift */; };
-		1B3B3A4622B01F8F00E8BD56 /* NSDecimalNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B3A4522B01F8F00E8BD56 /* NSDecimalNumberExtension.swift */; };
+		0A3B798D47A51AB3DE9F6634EB0C63EC /* POSBillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F4BB04C84479BB0D580EDF79E67ADE /* POSBillItem.swift */; };
+		178EC65F0CF1DD81BD4D8A43EDCB4B9B /* POSBillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B386FF49FC59F7EAC239F0E7C69B0 /* POSBillCalculator.swift */; };
 		1C0E91FC0C7263F4EDE087CF8B2F8B7F /* Pods-POSBillCalculator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585D475B98DFE20FCF1B0C2B4A4B09B8 /* Pods-POSBillCalculator_Example-dummy.m */; };
-		38236F4F4693C06E3EA417309AA31CF0 /* POSBillCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB44AF8E310CBC2A90B99E1C869E9D5 /* POSBillCalculator-dummy.m */; };
-		72D160400B0DC5A1D7E1F006BF01A4E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		267D461EB5A07B9DA66EA93171C4F497 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		457B07E60D80D69F7DA282C425A5D50C /* POSDiscount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78800055C0B89F075978DC99A6A87E /* POSDiscount.swift */; };
+		4C2395F44D8A6177E49089DB93A99D45 /* NSDecimalNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C50CC8F56568633B4F256B9311880C /* NSDecimalNumberExtension.swift */; };
+		726FAB5D3F17E6CBCE5909E68473F316 /* POSBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309CDACDFC9BC70954437C6798A893F /* POSBill.swift */; };
+		72D160400B0DC5A1D7E1F006BF01A4E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7830B0099BBA58BADB284CA9EF0D597B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		8CE43D6AEA4B31D414E4026CF27EAE2C /* Pods-POSBillCalculator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C65214EF83C876256604C48A270A060 /* Pods-POSBillCalculator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94DAD9CB53DBD36B67C7E2005307F17B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CE687AD269D1B95169B7549672345D82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141AD64E9EB7226A1EAD1AD88900122D /* ReplaceMe.swift */; };
-		ED004953678D1FA45150AD2F9C9F6F21 /* POSBillCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B81FB6AE092607E5B3E34E9854B9407B /* POSBillCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBBD0F381E4D3232073B924FA0DCB209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9EE740B0819D3530E2EE58CFCF1A9E98 /* POSBillCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7A918346D21E471A23FEC0A4EFC836 /* POSBillCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3BBED905C2CDCA45D263696F1812394 /* POSBillCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B69EDF269DB6F5836CA6A2433FF109 /* POSBillCalculator-dummy.m */; };
+		E4118207B3EFD4E4380B2997051C69E0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BFC4CC1FE90E47B2FFA34342D8958A /* ReplaceMe.swift */; };
+		F7F8D1126047BA1C8D0B6AA6C409960D /* POSTax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B63EAA8B2079B1D1644BF937919EFDA /* POSTax.swift */; };
+		FBBD0F381E4D3232073B924FA0DCB209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,52 +44,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010A887F9ADF01F4875BB2F897FF624C /* POSBillCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = POSBillCalculator.modulemap; sourceTree = "<group>"; };
 		0A925C720FB1B12049D411E5B936B6D1 /* Pods-POSBillCalculator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-POSBillCalculator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0F4C4D688C262BB83F7D18665B25BE00 /* Pods-POSBillCalculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSBillCalculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		141AD64E9EB7226A1EAD1AD88900122D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		1A66856B7845CABA7BBA4755536AAEFF /* POSBillCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = POSBillCalculator.modulemap; sourceTree = "<group>"; };
-		1B3B3A3522B01E3D00E8BD56 /* POSBillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = POSBillItem.swift; path = Classes/POSBillItem.swift; sourceTree = "<group>"; };
-		1B3B3A3722B01EA100E8BD56 /* POSTax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = POSTax.swift; path = Classes/POSTax.swift; sourceTree = "<group>"; };
-		1B3B3A3922B01EB500E8BD56 /* POSDiscount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = POSDiscount.swift; path = Classes/POSDiscount.swift; sourceTree = "<group>"; };
-		1B3B3A3F22B01F3C00E8BD56 /* POSBill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = POSBill.swift; path = Classes/POSBill.swift; sourceTree = "<group>"; };
-		1B3B3A4122B01F5600E8BD56 /* POSBillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = POSBillCalculator.swift; path = Classes/POSBillCalculator.swift; sourceTree = "<group>"; };
-		1B3B3A4522B01F8F00E8BD56 /* NSDecimalNumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberExtension.swift; path = Classes/NSDecimalNumberExtension.swift; sourceTree = "<group>"; };
 		1DC6961E147E969DBEA0E8BEB0187AB4 /* Pods-POSBillCalculator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POSBillCalculator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		20C50CC8F56568633B4F256B9311880C /* NSDecimalNumberExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberExtension.swift; path = POSBillCalculator/Classes/NSDecimalNumberExtension.swift; sourceTree = "<group>"; };
 		283D6907AE5C4ACD7296F14FAC0A2252 /* Pods-POSBillCalculator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POSBillCalculator_Tests-Info.plist"; sourceTree = "<group>"; };
+		2D78800055C0B89F075978DC99A6A87E /* POSDiscount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = POSDiscount.swift; path = POSBillCalculator/Classes/POSDiscount.swift; sourceTree = "<group>"; };
+		2E33195CC08B7A6BDE21B516636C2555 /* POSBillCalculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = POSBillCalculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		30F70092DD52F9110AD06811ECDAD843 /* Pods-POSBillCalculator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-POSBillCalculator_Tests.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F7FF7AED7C82042D7EC7E154061A059 /* Pods_POSBillCalculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSBillCalculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F7FF7AED7C82042D7EC7E154061A059 /* Pods_POSBillCalculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_POSBillCalculator_Tests.framework; path = "Pods-POSBillCalculator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B54CDAEEB3CF0E2258AF030B690DC9 /* Pods-POSBillCalculator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-POSBillCalculator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50B69EDF269DB6F5836CA6A2433FF109 /* POSBillCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "POSBillCalculator-dummy.m"; sourceTree = "<group>"; };
 		585D475B98DFE20FCF1B0C2B4A4B09B8 /* Pods-POSBillCalculator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-POSBillCalculator_Example-dummy.m"; sourceTree = "<group>"; };
 		5A7073589A85E1CBDE9F8C3D69CA11CB /* Pods-POSBillCalculator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POSBillCalculator_Example-Info.plist"; sourceTree = "<group>"; };
 		5AFD9AF0999015B5336A0B7570CD5C03 /* Pods-POSBillCalculator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-POSBillCalculator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5B63EAA8B2079B1D1644BF937919EFDA /* POSTax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = POSTax.swift; path = POSBillCalculator/Classes/POSTax.swift; sourceTree = "<group>"; };
+		5B7A918346D21E471A23FEC0A4EFC836 /* POSBillCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSBillCalculator-umbrella.h"; sourceTree = "<group>"; };
 		5C65214EF83C876256604C48A270A060 /* Pods-POSBillCalculator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-POSBillCalculator_Example-umbrella.h"; sourceTree = "<group>"; };
 		6252D86A776D340E3D0452082A6C5E22 /* Pods-POSBillCalculator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-POSBillCalculator_Example.modulemap"; sourceTree = "<group>"; };
+		821C67B1967F4E6F5C85D84877391373 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		884F28BE5CFE6E3A5E22C3EDC3BF07EC /* Pods-POSBillCalculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSBillCalculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		94F7D8A6917CACC0709D2EF88087BB49 /* Pods_POSBillCalculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSBillCalculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BD64081EF24FE5C2E9533A14291EA63 /* POSBillCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "POSBillCalculator-Info.plist"; sourceTree = "<group>"; };
+		94F7D8A6917CACC0709D2EF88087BB49 /* Pods_POSBillCalculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_POSBillCalculator_Example.framework; path = "Pods-POSBillCalculator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F4BB04C84479BB0D580EDF79E67ADE /* POSBillItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = POSBillItem.swift; path = POSBillCalculator/Classes/POSBillItem.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A065A73CD14A2C739AD7D575ABF8C979 /* Pods-POSBillCalculator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-POSBillCalculator_Tests-dummy.m"; sourceTree = "<group>"; };
 		A5D8795CEEBC76A0A33BF1495BD19205 /* Pods-POSBillCalculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSBillCalculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAB44AF8E310CBC2A90B99E1C869E9D5 /* POSBillCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "POSBillCalculator-dummy.m"; sourceTree = "<group>"; };
-		AF8D55137B59383E0F2F3195307ED4E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B81FB6AE092607E5B3E34E9854B9407B /* POSBillCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSBillCalculator-umbrella.h"; sourceTree = "<group>"; };
-		C26CE9ED01041D204695C45391D54658 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C8A2CEB37162CD8F16C532FDEAACC79D /* POSBillCalculator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POSBillCalculator.xcconfig; sourceTree = "<group>"; };
+		A95B386FF49FC59F7EAC239F0E7C69B0 /* POSBillCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = POSBillCalculator.swift; path = POSBillCalculator/Classes/POSBillCalculator.swift; sourceTree = "<group>"; };
+		AC9FB84DDDE4455520009A69C47539C5 /* POSBillCalculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSBillCalculator-prefix.pch"; sourceTree = "<group>"; };
+		B309CDACDFC9BC70954437C6798A893F /* POSBill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = POSBill.swift; path = POSBillCalculator/Classes/POSBill.swift; sourceTree = "<group>"; };
 		CE97E32DFC7B9D4F317F0E61D376EF4A /* Pods-POSBillCalculator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POSBillCalculator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D40E36EDA8F468DC0964D827AB9AD589 /* POSBillCalculator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POSBillCalculator.xcconfig; sourceTree = "<group>"; };
 		E2C24EF196A1AC610495B51122165852 /* Pods-POSBillCalculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSBillCalculator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E3216111C6C9C62114E4AE6BCC8814D8 /* POSBillCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSBillCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E47349C3B3261EA2C1A8FD52963AF92C /* POSBillCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "POSBillCalculator-Info.plist"; sourceTree = "<group>"; };
-		E9936725EA0D3C3548760480BA8B1DF6 /* POSBillCalculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSBillCalculator-prefix.pch"; sourceTree = "<group>"; };
-		F3596F8EE875FF8BB88B4F14B40619ED /* POSBillCalculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = POSBillCalculator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3216111C6C9C62114E4AE6BCC8814D8 /* POSBillCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = POSBillCalculator.framework; path = POSBillCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35B627F456290B81F6AE971D7C823E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E3BFC4CC1FE90E47B2FFA34342D8958A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = POSBillCalculator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		FBF1DCF38B29743C49B93471BD6B8ECF /* Pods-POSBillCalculator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POSBillCalculator_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59BB7FAFB2930C63AEC8A590DCB0A815 /* Frameworks */ = {
+		131C2706A0AA2386477ECDE2CC340E38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DAD9CB53DBD36B67C7E2005307F17B /* Foundation.framework in Frameworks */,
+				7830B0099BBA58BADB284CA9EF0D597B /* Foundation.framework in Frameworks */,
+				267D461EB5A07B9DA66EA93171C4F497 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,37 +114,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0691CC2321B873CBD41F577797A4102B /* POSBillCalculator */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				141AD64E9EB7226A1EAD1AD88900122D /* ReplaceMe.swift */,
-				2C35F3472AE3786B3D703207E77FD07A /* Pod */,
-				89D7A1F2C2FEA5441C88BC79591B4767 /* Support Files */,
-				1B3B3A3522B01E3D00E8BD56 /* POSBillItem.swift */,
-				1B3B3A3722B01EA100E8BD56 /* POSTax.swift */,
-				1B3B3A3922B01EB500E8BD56 /* POSDiscount.swift */,
-				1B3B3A3F22B01F3C00E8BD56 /* POSBill.swift */,
-				1B3B3A4122B01F5600E8BD56 /* POSBillCalculator.swift */,
-				1B3B3A4522B01F8F00E8BD56 /* NSDecimalNumberExtension.swift */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = POSBillCalculator;
-			path = ../../POSBillCalculator;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0B02F04C5436E152686F500CCE63B6FB /* Development Pods */ = {
+		29227127A95668FFD9DA5F682D91C497 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0691CC2321B873CBD41F577797A4102B /* POSBillCalculator */,
+				FDA393FDB62DA206802D6DE41EF9115A /* POSBillCalculator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2C35F3472AE3786B3D703207E77FD07A /* Pod */ = {
+		56A02AE18A61149EEABE701234780E7D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AF8D55137B59383E0F2F3195307ED4E6 /* LICENSE */,
-				F3596F8EE875FF8BB88B4F14B40619ED /* POSBillCalculator.podspec */,
-				C26CE9ED01041D204695C45391D54658 /* README.md */,
+				E35B627F456290B81F6AE971D7C823E1 /* LICENSE */,
+				2E33195CC08B7A6BDE21B516636C2555 /* POSBillCalculator.podspec */,
+				821C67B1967F4E6F5C85D84877391373 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -154,20 +148,6 @@
 				E3216111C6C9C62114E4AE6BCC8814D8 /* POSBillCalculator.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		89D7A1F2C2FEA5441C88BC79591B4767 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A66856B7845CABA7BBA4755536AAEFF /* POSBillCalculator.modulemap */,
-				C8A2CEB37162CD8F16C532FDEAACC79D /* POSBillCalculator.xcconfig */,
-				AAB44AF8E310CBC2A90B99E1C869E9D5 /* POSBillCalculator-dummy.m */,
-				E47349C3B3261EA2C1A8FD52963AF92C /* POSBillCalculator-Info.plist */,
-				E9936725EA0D3C3548760480BA8B1DF6 /* POSBillCalculator-prefix.pch */,
-				B81FB6AE092607E5B3E34E9854B9407B /* POSBillCalculator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/POSBillCalculator";
 			sourceTree = "<group>";
 		};
 		A75A0E411485A32C4680B91CFDD4FD36 /* Pods-POSBillCalculator_Tests */ = {
@@ -186,31 +166,29 @@
 			path = "Target Support Files/Pods-POSBillCalculator_Tests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BEC2F1C747D56748D633E3AAABC95587 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				010A887F9ADF01F4875BB2F897FF624C /* POSBillCalculator.modulemap */,
+				D40E36EDA8F468DC0964D827AB9AD589 /* POSBillCalculator.xcconfig */,
+				50B69EDF269DB6F5836CA6A2433FF109 /* POSBillCalculator-dummy.m */,
+				8BD64081EF24FE5C2E9533A14291EA63 /* POSBillCalculator-Info.plist */,
+				AC9FB84DDDE4455520009A69C47539C5 /* POSBillCalculator-prefix.pch */,
+				5B7A918346D21E471A23FEC0A4EFC836 /* POSBillCalculator-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/POSBillCalculator";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0B02F04C5436E152686F500CCE63B6FB /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				29227127A95668FFD9DA5F682D91C497 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7D2211EBD49354850952D5B41DEF8570 /* Products */,
 				E41953FB2DBB580F568136D05CB3F984 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D3DE1574BED2E8704AE32B0B3660C4EC /* Pods-POSBillCalculator_Example */ = {
@@ -230,6 +208,15 @@
 			path = "Target Support Files/Pods-POSBillCalculator_Example";
 			sourceTree = "<group>";
 		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		E41953FB2DBB580F568136D05CB3F984 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,22 +226,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FDA393FDB62DA206802D6DE41EF9115A /* POSBillCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				20C50CC8F56568633B4F256B9311880C /* NSDecimalNumberExtension.swift */,
+				B309CDACDFC9BC70954437C6798A893F /* POSBill.swift */,
+				A95B386FF49FC59F7EAC239F0E7C69B0 /* POSBillCalculator.swift */,
+				97F4BB04C84479BB0D580EDF79E67ADE /* POSBillItem.swift */,
+				2D78800055C0B89F075978DC99A6A87E /* POSDiscount.swift */,
+				5B63EAA8B2079B1D1644BF937919EFDA /* POSTax.swift */,
+				E3BFC4CC1FE90E47B2FFA34342D8958A /* ReplaceMe.swift */,
+				56A02AE18A61149EEABE701234780E7D /* Pod */,
+				BEC2F1C747D56748D633E3AAABC95587 /* Support Files */,
+			);
+			name = POSBillCalculator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2EED44239EC6369F8C15977A74DFB2C7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED004953678D1FA45150AD2F9C9F6F21 /* POSBillCalculator-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D4628CAF34F027966FA664477DF9511 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CE43D6AEA4B31D414E4026CF27EAE2C /* Pods-POSBillCalculator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53039CC9CD0F57AE7B101323832B5C8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE740B0819D3530E2EE58CFCF1A9E98 /* POSBillCalculator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +313,12 @@
 		};
 		2EB7EA758D0D59722E299F3CEC3E357A /* POSBillCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EAE942E63B940EB9B0C8F5FA05F6C88 /* Build configuration list for PBXNativeTarget "POSBillCalculator" */;
+			buildConfigurationList = D85C39FF83D742DF0D17AF533C4C3771 /* Build configuration list for PBXNativeTarget "POSBillCalculator" */;
 			buildPhases = (
-				2EED44239EC6369F8C15977A74DFB2C7 /* Headers */,
-				7A49861699E3A7165298A031FC6AAFE5 /* Sources */,
-				59BB7FAFB2930C63AEC8A590DCB0A815 /* Frameworks */,
-				431B717168F34F476D64404C1A52EB49 /* Resources */,
+				53039CC9CD0F57AE7B101323832B5C8C /* Headers */,
+				59B369D5BE3B30E1CDB7BBFB9B167872 /* Sources */,
+				131C2706A0AA2386477ECDE2CC340E38 /* Frameworks */,
+				149431E5A67573CFC4701AAE3EC9089D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -333,11 +337,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					1C9BE90C80516E5E2AE08745F92EB8F6 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,14 +358,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35DE7E534C7B26A059D1151BC5A8612D /* Resources */ = {
+		149431E5A67573CFC4701AAE3EC9089D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		431B717168F34F476D64404C1A52EB49 /* Resources */ = {
+		35DE7E534C7B26A059D1151BC5A8612D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,12 +382,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A49861699E3A7165298A031FC6AAFE5 /* Sources */ = {
+		59B369D5BE3B30E1CDB7BBFB9B167872 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38236F4F4693C06E3EA417309AA31CF0 /* POSBillCalculator-dummy.m in Sources */,
-				CE687AD269D1B95169B7549672345D82 /* ReplaceMe.swift in Sources */,
+				4C2395F44D8A6177E49089DB93A99D45 /* NSDecimalNumberExtension.swift in Sources */,
+				726FAB5D3F17E6CBCE5909E68473F316 /* POSBill.swift in Sources */,
+				D3BBED905C2CDCA45D263696F1812394 /* POSBillCalculator-dummy.m in Sources */,
+				178EC65F0CF1DD81BD4D8A43EDCB4B9B /* POSBillCalculator.swift in Sources */,
+				0A3B798D47A51AB3DE9F6634EB0C63EC /* POSBillItem.swift in Sources */,
+				457B07E60D80D69F7DA282C425A5D50C /* POSDiscount.swift in Sources */,
+				F7F8D1126047BA1C8D0B6AA6C409960D /* POSTax.swift in Sources */,
+				E4118207B3EFD4E4380B2997051C69E0 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,13 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3B3A3822B01EA100E8BD56 /* POSTax.swift in Sources */,
-				1B3B3A3622B01E3D00E8BD56 /* POSBillItem.swift in Sources */,
 				1C0E91FC0C7263F4EDE087CF8B2F8B7F /* Pods-POSBillCalculator_Example-dummy.m in Sources */,
-				1B3B3A4222B01F5600E8BD56 /* POSBillCalculator.swift in Sources */,
-				1B3B3A4022B01F3C00E8BD56 /* POSBill.swift in Sources */,
-				1B3B3A4622B01F8F00E8BD56 /* NSDecimalNumberExtension.swift in Sources */,
-				1B3B3A3A22B01EB500E8BD56 /* POSDiscount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +436,6 @@
 			baseConfigurationReference = 0F4C4D688C262BB83F7D18665B25BE00 /* Pods-POSBillCalculator_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -460,17 +458,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		81084CD6FE43DB9807890BD6D4002890 /* Release */ = {
+		35C6A1C349885BE6DA7BDD7E2EAE5238 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8A2CEB37162CD8F16C532FDEAACC79D /* POSBillCalculator.xcconfig */;
+			baseConfigurationReference = D40E36EDA8F468DC0964D827AB9AD589 /* POSBillCalculator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -492,7 +488,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		484385CFB09C985CFAD142C03221DD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40E36EDA8F468DC0964D827AB9AD589 /* POSBillCalculator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/POSBillCalculator/POSBillCalculator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/POSBillCalculator/POSBillCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/POSBillCalculator/POSBillCalculator.modulemap";
+				PRODUCT_MODULE_NAME = POSBillCalculator;
+				PRODUCT_NAME = POSBillCalculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -553,7 +580,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -657,43 +685,11 @@
 			};
 			name = Release;
 		};
-		DD2733B7D2B7D005C0B8BF64365CFCA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8A2CEB37162CD8F16C532FDEAACC79D /* POSBillCalculator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/POSBillCalculator/POSBillCalculator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/POSBillCalculator/POSBillCalculator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/POSBillCalculator/POSBillCalculator.modulemap";
-				PRODUCT_MODULE_NAME = POSBillCalculator;
-				PRODUCT_NAME = POSBillCalculator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EE16DF6999F5138F5CB4EF89CE6B87E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2C24EF196A1AC610495B51122165852 /* Pods-POSBillCalculator_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -716,7 +712,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -769,11 +764,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EAE942E63B940EB9B0C8F5FA05F6C88 /* Build configuration list for PBXNativeTarget "POSBillCalculator" */ = {
+		D85C39FF83D742DF0D17AF533C4C3771 /* Build configuration list for PBXNativeTarget "POSBillCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD2733B7D2B7D005C0B8BF64365CFCA3 /* Debug */,
-				81084CD6FE43DB9807890BD6D4002890 /* Release */,
+				35C6A1C349885BE6DA7BDD7E2EAE5238 /* Debug */,
+				484385CFB09C985CFAD142C03221DD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
